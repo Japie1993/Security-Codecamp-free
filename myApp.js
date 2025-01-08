@@ -1,5 +1,16 @@
 const express = require('helmet');
-git clone https://github.com/your-username/your-repository.git
+const express = require('express');
+const helmet = require('helmet');
+const app = express();
+
+// Use Helmet to secure your app
+app.use(helmet());
+
+// Your other middlewares and routes
+app.listen(3000, () => {
+    console.log('Server is running on port 3000');
+});
+
 
 
 const app = express();
